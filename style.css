@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+}
+html {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 30px;
+}
+form {
+  padding: 20px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+button {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #7ea3fb;
+  color: rgb(218, 228, 253);
+  font-size: 16px;
+}
+button:focus{
+    box-shadow: #7989ff 0 0 0 1.5px inset, rgba(31, 29, 64, 0.4) 0 2px 4px,
+    rgba(37, 36, 71, 0.3) 0 7px 13px -3px, #8d9af9 0 -3px 0 inset;
+}
+button:active{
+    box-shadow: #7f8cf1 0 3px 7px inset;
+    transform: translateY(2px);
+}
+button:hover{
+    box-shadow: #7f8cf1 0 3px 7px inset;
+    transform: translateY(1px);
+}
+img {
+  width: 20%;
+  padding: 30px;
+}
+p {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#p-big {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+#p-small {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
